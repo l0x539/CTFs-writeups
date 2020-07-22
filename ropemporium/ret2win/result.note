@@ -1,0 +1,7 @@
+kali@kali:~/Documents/CTFs/ropemporium/ret2win$ python3 exploit.py 
+[+] Starting local process './ret2win': pid 18375
+b"ret2win by ROP Emporium\nx86_64\n\nFor my first trick, I will attempt to fit 56 bytes of user input into 32 bytes of stack buffer!\nWhat could possibly go wrong?\nYou there, may I have your input please? And don't worry about null bytes, we're using read()!\n\n> "
+Thank you!
+Well done! Here's your flag:
+ROPE{a_placeholder_32byte_flag!}
+
