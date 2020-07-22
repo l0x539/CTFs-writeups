@@ -183,7 +183,7 @@ gef➤  grep "/bin/cat flag.txt"
   0x601060 - 0x601071  →   "/bin/cat flag.txt"
 ```
 - Note:
-this command only run if you have `gef` installed and program should be running, otherwise you'll have to check `$ info proc map` to find the address range and then in gdb  `gdb> find 0xSTARTADDRESS,0xENDADDREES,"/bin/cat flag.txt"`
+this command only run if you have [gef](https://github.com/hugsy/gef) installed and program should be running, otherwise you'll have to check `$ info proc map` to find the address range and then in gdb  `gdb> find 0xSTARTADDRESS,0xENDADDREES,"/bin/cat flag.txt"`
 
 so:
 `string_address = 0x601060`
