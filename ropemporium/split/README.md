@@ -1,4 +1,4 @@
-# split
+# 2 split
 
 in this challenge we try to call system("/bin/cat flag.txt") but this time we have to pass the string to the function. [challenge](https://ropemporium.com/challenge/split.html)
 
