@@ -8,7 +8,7 @@ in this challenge we redirect execution just like the previous challenge, except
 
 ## Objective
 
-1. find pattern length (same as previous challenge).
+1. find pattern length (same as previous [challenge](https://github.com/l0x539/CTFs-writeups/tree/master/ropemporium/ret2win)).
 2. find how system takes an argument.
 3. find system and the string to be executed.
 4. find a way to load the string address into a register that's passed as an argument and that triggers `ret` right after.
@@ -115,7 +115,7 @@ roping all that together for our payload to look:
 
 ## Recon
 
-same as previous [challenge](https://ropemporium.com/challenge/split.html)
+same as previous [challenge](https://github.com/l0x539/CTFs-writeups/tree/master/ropemporium/ret2win)
 
 running `readelf -s split` you'll notice a function called `usefulFunction` which calls `system`
 
