@@ -1,7 +1,11 @@
 # Ret2win 
 
 In this challenge you have to redirect execution to a function called ret2win
-[challenge link](https://ropemporium.com/challenge/ret2win.html)
+[challenge link](https://ropemporium.com/challenge/ret2win.html) using 64-bit binary.
+
+## Understanding
+
+In this challenge, we try to redirect the execution by inputing a malitious pattern (characters) in an input field that the running program asks for
 
 ## Recon
 
