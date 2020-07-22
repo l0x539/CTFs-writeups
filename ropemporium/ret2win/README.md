@@ -403,7 +403,8 @@ $
 
 * Using pwntools:
 
-in a file we call [exploit.py]() and using python3.
+in a file we call [exploit.py](https://github.com/l0x539/CTFs-writeups/blob/master/ropemporium/ret2win/exploit.py) and using python3.
+```python3
 
 first we import:
 

@@ -190,7 +190,7 @@ so:
 
 ## Writing exploit
 
-in a file called [exploit.py]()
+in a file called [exploit.py](https://github.com/l0x539/CTFs-writeups/blob/master/ropemporium/split/exploit.py)
 
 again, using [pwntools](http://docs.pwntools.com/en/stable/) on python3.
 
