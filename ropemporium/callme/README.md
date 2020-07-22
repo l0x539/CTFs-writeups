@@ -1,5 +1,6 @@
 # 3 Callme
 
+This challenge introduces you to GOT (Global Offsets Table) and PLT (Procedure Linkage Table).
 
 ## Understanding
 
@@ -254,6 +255,7 @@ payload += p64(binary.plt['callme_three'])
 
 ```python3
 print(p.recvuntil("> ").decode("latin-1"))
+```
 
 * Sending payload
 
