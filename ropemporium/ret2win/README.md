@@ -5,7 +5,7 @@ In this challenge you have to redirect execution to a function called ret2win
 
 ## Understanding
 
-In this challenge, we try to redirect the execution by inputing a malitious pattern (characters) in an input field that the running program asks for
+In this challenge, we try to redirect the execution by inputing a malicious pattern (characters) in an input field that the running program asks for
 
 ## Recon
 
