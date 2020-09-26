@@ -5,7 +5,7 @@ In this challenge you have to redirect execution to a function called ret2win
 
 ## Understanding
 
-In this challenge, we try to redirect the execution by inputing a malitious pattern (characters) in an input field that the running program asks for
+In this challenge, we try to redirect the execution by inputing a malicious pattern (characters) in an input field that the running program asks for
 
 ## Recon
 
@@ -32,6 +32,7 @@ $ checksec ret2win
 ```
 
 `No canary found` means that the there is no check on the stack before `RET` instruction (returning from a function).
+
 `No PIE` means that the address won't change on each execution (position-independent executable is off).
 
 * Last we can check the symbols to see the functions that this binray is calling including `main` and the function we're targetting `ret2win`, to do that we can use `readelf`
@@ -266,7 +267,7 @@ let's continue the execution.
 ```
 gef➤  c
 ```
-we receive a `SIGSEGV` which is a segmentation fault which is a segmentation fault.
+we receive a `SIGSEGV` which is a segmentation fault.
 
 again let's run the program and this time set the break point at `ret` instruction.
 so:
@@ -404,7 +405,6 @@ $
 * Using pwntools:
 
 in a file we call [exploit.py](https://github.com/l0x539/CTFs-writeups/blob/master/ropemporium/ret2win/exploit.py) and using python3.
-```python3
 
 first we import:
 
