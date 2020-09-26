@@ -1,0 +1,1 @@
+IMG: [vdso] Address: 0x7ffd161dca1b:0x7ffd161dc000 added to the legacy images
